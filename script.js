@@ -104,8 +104,14 @@ let isLearning=true;
    var mult=3;
    var div=2;
    var b=temperature+a;
+   console.log(b);
+
    var sub=b-c;
+   console.log(sub);
+
    var multi=sub*mult;
+   console.log(multi);
+
    var divide=multi/2;
    console.log(divide);
       //simple math2
@@ -118,6 +124,25 @@ let isLearning=true;
       console.log(multiply);
       var divide=temperature/2;
       console.log(divide);
+
+            //simple math3
+var temperature=35;
+console.log(temperature);
+
+temperature +=5;
+console.log(temperature);
+
+temperature -=2;
+console.log(temperature);
+
+temperature *=3;
+console.log(temperature);
+
+temperature /=2;
+console.log(temperature);
+
+
+
       //8.varible names valid or notvalid
       // _firstName - Valid
        // $price  -Valid
